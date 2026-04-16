@@ -23,5 +23,3 @@ def gravar_por_tecla():
     sf.write("comando.wav", audio, SAMPLE_RATE)
     print("Salvo em comando.wav")
     return "comando.wav"
-
-gravar_por_tecla()
